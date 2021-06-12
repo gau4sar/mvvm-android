@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryDark">@color/purple_700</item>
+        <item name="colorAccent">@color/teal_200</item>
+        // enable window content transition
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <style name="TextColorPrimaryDark" parent="TextAppearance.AppCompat.Large">
+        <item name="android:textColor">@color/purple_700</item>
+    </style>
+
+    <style name="CustomTextColorPrimaryDarkStyle" parent="TextAppearance.AppCompat.Button">
+        <item name="android:textColor">@color/purple_700</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="CustomTextStyle" parent="TextAppearance.AppCompat.Button">
+        <item name="android:textAllCaps">false</item>
+    </style>
+</resources>

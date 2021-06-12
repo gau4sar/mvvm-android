@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_sessions"
+    app:startDestination="@id/sessionsListFragment">
+
+    <fragment
+        android:id="@+id/sessionsListFragment"
+        android:name="com.gaurav.fretello.ui.sessions.screens.SessionsListFragment"
+        android:label="fragment_sessions"
+        tools:layout="@layout/fragment_sessions">
+
+        <action
+            android:id="@+id/action_sessionsListFragment_to_sessionDetailsFragment"
+            app:destination="@id/sessionDetailsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/sessionDetailsFragment"
+        android:name="com.gaurav.fretello.ui.sessions.screens.SessionDetailsFragment"
+        android:label="SessionDetailsFragment">
+
+        <!--<argument
+            android:name="session"
+            app:argType="com.gaurav.fretello.data.model.Session" />-->
+
+    </fragment>
+</navigation>

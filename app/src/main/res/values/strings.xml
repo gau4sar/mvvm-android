@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Fretello-coding-challege</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="exercises">Hide details</string>
+    <string name="hide_details">Hide sesssaqion details</string>
+    <string name="connect_error">Please check your network connectivity and try again.</string>
+    <string name="retry">retry</string>
+    <string name="no_network">Internet connection not found</string>
+</resources>
